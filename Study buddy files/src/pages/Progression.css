@@ -1,0 +1,39 @@
+.progression-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.progression-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.progression-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+}
+
+.progress-bar {
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 20px;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #28a745;
+  transition: width 0.5s ease-in-out;
+}
